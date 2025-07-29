@@ -6,12 +6,12 @@ export const AppRoutes = () => {
 
         <>
             <Routes>
-                <Route path="/pagina-inicial" element={<p>Página Incial</p>} />
+                <Route path="/pagina-inicial" element={<Button variant='contained' color='primary'>Teste</Button>} />
 
                 <Route path="*" element={<Navigate to="/pagina-inicial" />} />
             </Routes>
 
-            <Button>Teste</Button>
+            
         </>
 
     )
